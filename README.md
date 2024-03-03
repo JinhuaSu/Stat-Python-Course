@@ -27,3 +27,7 @@ Q2: 在终端运行python代码，发现No such file的报错，无法加载数�
 
 解法1：将代码文件里的../../data/msleep.csv 改成data/msleep.csv
 解法2: 在你用命令行执行python进入ide界面前，先通过cd src/example的指令进入到和代码相同的文件夹下,再用python指令进入ide界面
+
+Q3: notebook一定要学吗
+
+不一定，看你需求，建议始终有顺序执行代码的习惯
