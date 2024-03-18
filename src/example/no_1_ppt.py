@@ -9,7 +9,7 @@
 # 数据加载
 import pandas as pd
 msleep = pd.read_csv("../../data/msleep.csv")
-msleep
+msleep.columns
 #%%
 import numpy as np
 np.mean(msleep['sleep_total'])
@@ -120,3 +120,6 @@ msleep[(msleep['bodywt'] < lower_threshold) | (msleep['bodywt'] > upper_threshol
 msleep['bodywt'].describe()
 
 # %%
+1 + 1
+#%%
+1
